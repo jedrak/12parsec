@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3412519375482942724}
   - component: {fileID: 7476561143715482093}
+  - component: {fileID: 2829018062217027828}
   - component: {fileID: -5952520484619937026}
   m_Layer: 0
   m_Name: Meteor
@@ -82,6 +83,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2829018062217027828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2742033648596003328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2347b510e45f75549a6f175e6dd7379e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angle: 4
 --- !u!54 &-5952520484619937026
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -93,7 +107,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
