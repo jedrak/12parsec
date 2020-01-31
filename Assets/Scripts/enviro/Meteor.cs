@@ -13,6 +13,6 @@ public class Meteor : MonoBehaviour
 
     public void Setvelocity(Vector3 direction)
     {
-        rb.velocity = 
+        rb.velocity = -direction;
     }
 }
